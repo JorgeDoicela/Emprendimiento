@@ -1,0 +1,769 @@
+﻿
+> taxonomy@0.2.0 build C:\Users\ismae\Desktop\Emprendimiento y Gesti├│n\taxonomy
+> contentlayer build && next build
+
+Warning: Contentlayer might not work as expected on Windows
+Generated 15 documents in .contentlayer
+TypeError: The "code" argument must be of type number. Received an instance of Object
+    at process.set [as exitCode] (node:internal/bootstrap/node:119:9)
+    at Cli.runExit (C:\Users\ismae\Desktop\Emprendimiento y Gesti├│n\taxonomy\node_modules\.pnpm\clipanion@3.2.1_typanion@3.14.0\node_modules\clipanion\lib\advanced\Cli.js:232:26)
+    at run (file:///C:/Users/ismae/Desktop/Emprendimiento%20y%20Gesti%C3%B3n/taxonomy/node_modules/.pnpm/@contentlayer+cli@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/cli/dist/index.js:26:5)
+    at main (C:\Users\ismae\Desktop\Emprendimiento y Gesti├│n\taxonomy\node_modules\.pnpm\contentlayer@0.3.4_esbuild@0.18.20\node_modules\contentlayer\bin\cli.cjs:5:3) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+info  - Loaded env from C:\Users\ismae\Desktop\Emprendimiento y Gesti├│n\taxonomy\.env.local
+pnpm : warn  - You 
+have enabled 
+experimental 
+features (appDir, se
+rverComponentsExtern
+alPackages) in 
+next.config.mjs.
+En línea: 1 
+Carácter: 1
++ pnpm build > 
+build_error.log 2>&1
++ ~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
+    + CategoryInfo  
+            : NotS  
+  pecified: (warn   
+   - You hav...e    
+xt.config.mjs.:    
+String) [], Rem    
+oteException
+    + FullyQualifie 
+   dErrorId : Nati  
+  veCommandError
+ 
+warn  - 
+Experimental 
+features are not 
+covered by semver, 
+and may cause 
+unexpected or 
+broken application 
+behavior. Use at 
+your own risk.
+info  - Thank you for testing `appDir` please leave your feedback at https://nextjs.link/app-feedback
+
+info  - Creating an optimized production build...
+Warning: Contentlayer might not work as expected on Windows
+Generated 15 documents in .contentlayer
+<w> [webpack.cache.P
+ackFileCacheStrategy
+/webpack.FileSystemI
+nfo] Parsing of C:\U
+sers\ismae\Desktop\E
+mprendimiento y Gest
+i├│n\taxonomy\node_m
+odules\.pnpm\@conten
+tlayer+core@0.3.4_es
+build@0.18.20\node_m
+odules\@contentlayer
+\core\dist\dynamic-b
+uild.js for build 
+dependencies failed 
+at 'import(`file://$
+{compiledConfigPath}
+`)'.
+<w> Build 
+dependencies behind 
+this expression are 
+ignored and might 
+cause incorrect 
+cache invalidation.
+<w> [webpack.cache.P
+ackFileCacheStrategy
+/webpack.FileSystemI
+nfo] Parsing of C:\U
+sers\ismae\Desktop\E
+mprendimiento y Gest
+i├│n\taxonomy\node_m
+odules\.pnpm\@conten
+tlayer+core@0.3.4_es
+build@0.18.20\node_m
+odules\@contentlayer
+\core\dist\getConfig
+\index.js for build 
+dependencies failed 
+at 'import(`file://$
+{modulePath}?x=${Dat
+e.now()}`)'.
+<w> Build 
+dependencies behind 
+this expression are 
+ignored and might 
+cause incorrect 
+cache invalidation.
+<w> [webpack.cache.P
+ackFileCacheStrategy
+] Caching failed 
+for pack: Error: 
+Can't resolve 'markd
+own-wasm/dist/markdo
+wn.node.js' in 'C:\U
+sers\ismae\Desktop\E
+mprendimiento y Gest
+i├│n\taxonomy\node_m
+odules\.pnpm\@conten
+tlayer+core@0.3.4_es
+build@0.18.20\node_m
+odules\@contentlayer
+\core\dist\markdown'
+<w> while resolving 
+'markdown-wasm/dist/
+markdown.node.js' 
+in C:\Users\ismae\De
+sktop\Emprendimiento
+ y Gesti├│n\taxonomy
+\node_modules\.pnpm\
+@contentlayer+core@0
+.3.4_esbuild@0.18.20
+\node_modules\@conte
+ntlayer\core\dist\ma
+rkdown as file
+<w>  at resolve esm 
+file markdown-wasm/d
+ist/markdown.node.js
+<w>  at file 
+dependencies C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\node_modu
+les\.pnpm\@contentla
+yer+core@0.3.4_esbui
+ld@0.18.20\node_modu
+les\@contentlayer\co
+re\dist\markdown\mar
+kdown.js
+<w>  at file C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\node_modu
+les\.pnpm\@contentla
+yer+core@0.3.4_esbui
+ld@0.18.20\node_modu
+les\@contentlayer\co
+re\dist\markdown\mar
+kdown.js
+<w>  at resolve esm 
+file ./markdown/mark
+down.js
+<w>  at file 
+dependencies C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\node_modu
+les\.pnpm\@contentla
+yer+core@0.3.4_esbui
+ld@0.18.20\node_modu
+les\@contentlayer\co
+re\dist\index.js
+<w>  at file C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\node_modu
+les\.pnpm\@contentla
+yer+core@0.3.4_esbui
+ld@0.18.20\node_modu
+les\@contentlayer\co
+re\dist\index.js
+<w>  at resolve esm 
+file 
+@contentlayer/core
+<w>  at file 
+dependencies C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\node_modu
+les\.pnpm\next-conte
+ntlayer@0.3.4_con_00
+82d1a33c0dd2e074a369
+10983ce79b\node_modu
+les\next-contentlaye
+r\dist\plugin.js
+<w>  at file C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\node_modu
+les\.pnpm\next-conte
+ntlayer@0.3.4_con_00
+82d1a33c0dd2e074a369
+10983ce79b\node_modu
+les\next-contentlaye
+r\dist\plugin.js
+<w>  at resolve esm 
+file ./plugin.js
+<w>  at file 
+dependencies C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\node_modu
+les\.pnpm\next-conte
+ntlayer@0.3.4_con_00
+82d1a33c0dd2e074a369
+10983ce79b\node_modu
+les\next-contentlaye
+r\dist\index.js
+<w>  at file C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\node_modu
+les\.pnpm\next-conte
+ntlayer@0.3.4_con_00
+82d1a33c0dd2e074a369
+10983ce79b\node_modu
+les\next-contentlaye
+r\dist\index.js
+<w>  at resolve esm 
+file 
+next-contentlayer
+<w>  at file 
+dependencies C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\next.conf
+ig.mjs
+<w>  at file C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\next.conf
+ig.mjs
+<w>  at resolve 
+commonjs C:\Users\is
+mae\Desktop\Emprendi
+miento y Gesti├│n\ta
+xonomy\next.config.m
+js
+<w> [webpack.cache.P
+ackFileCacheStrategy
+/webpack.FileSystemI
+nfo] Parsing of C:\U
+sers\ismae\Desktop\E
+mprendimiento y Gest
+i├│n\taxonomy\node_m
+odules\.pnpm\@conten
+tlayer+core@0.3.4_es
+build@0.18.20\node_m
+odules\@contentlayer
+\core\dist\dynamic-b
+uild.js for build 
+dependencies failed 
+at 'import(`file://$
+{compiledConfigPath}
+`)'.
+<w> Build 
+dependencies behind 
+this expression are 
+ignored and might 
+cause incorrect 
+cache invalidation.
+<w> [webpack.cache.P
+ackFileCacheStrategy
+/webpack.FileSystemI
+nfo] Parsing of C:\U
+sers\ismae\Desktop\E
+mprendimiento y Gest
+i├│n\taxonomy\node_m
+odules\.pnpm\@conten
+tlayer+core@0.3.4_es
+build@0.18.20\node_m
+odules\@contentlayer
+\core\dist\getConfig
+\index.js for build 
+dependencies failed 
+at 'import(`file://$
+{modulePath}?x=${Dat
+e.now()}`)'.
+<w> Build 
+dependencies behind 
+this expression are 
+ignored and might 
+cause incorrect 
+cache invalidation.
+<w> [webpack.cache.P
+ackFileCacheStrategy
+] Caching failed 
+for pack: Error: 
+Can't resolve 'markd
+own-wasm/dist/markdo
+wn.node.js' in 'C:\U
+sers\ismae\Desktop\E
+mprendimiento y Gest
+i├│n\taxonomy\node_m
+odules\.pnpm\@conten
+tlayer+core@0.3.4_es
+build@0.18.20\node_m
+odules\@contentlayer
+\core\dist\markdown'
+<w> while resolving 
+'markdown-wasm/dist/
+markdown.node.js' 
+in C:\Users\ismae\De
+sktop\Emprendimiento
+ y Gesti├│n\taxonomy
+\node_modules\.pnpm\
+@contentlayer+core@0
+.3.4_esbuild@0.18.20
+\node_modules\@conte
+ntlayer\core\dist\ma
+rkdown as file
+<w>  at resolve esm 
+file markdown-wasm/d
+ist/markdown.node.js
+<w>  at file 
+dependencies C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\node_modu
+les\.pnpm\@contentla
+yer+core@0.3.4_esbui
+ld@0.18.20\node_modu
+les\@contentlayer\co
+re\dist\markdown\mar
+kdown.js
+<w>  at file C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\node_modu
+les\.pnpm\@contentla
+yer+core@0.3.4_esbui
+ld@0.18.20\node_modu
+les\@contentlayer\co
+re\dist\markdown\mar
+kdown.js
+<w>  at resolve esm 
+file ./markdown/mark
+down.js
+<w>  at file 
+dependencies C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\node_modu
+les\.pnpm\@contentla
+yer+core@0.3.4_esbui
+ld@0.18.20\node_modu
+les\@contentlayer\co
+re\dist\index.js
+<w>  at file C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\node_modu
+les\.pnpm\@contentla
+yer+core@0.3.4_esbui
+ld@0.18.20\node_modu
+les\@contentlayer\co
+re\dist\index.js
+<w>  at resolve esm 
+file 
+@contentlayer/core
+<w>  at file 
+dependencies C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\node_modu
+les\.pnpm\next-conte
+ntlayer@0.3.4_con_00
+82d1a33c0dd2e074a369
+10983ce79b\node_modu
+les\next-contentlaye
+r\dist\plugin.js
+<w>  at file C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\node_modu
+les\.pnpm\next-conte
+ntlayer@0.3.4_con_00
+82d1a33c0dd2e074a369
+10983ce79b\node_modu
+les\next-contentlaye
+r\dist\plugin.js
+<w>  at resolve esm 
+file ./plugin.js
+<w>  at file 
+dependencies C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\node_modu
+les\.pnpm\next-conte
+ntlayer@0.3.4_con_00
+82d1a33c0dd2e074a369
+10983ce79b\node_modu
+les\next-contentlaye
+r\dist\index.js
+<w>  at file C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\node_modu
+les\.pnpm\next-conte
+ntlayer@0.3.4_con_00
+82d1a33c0dd2e074a369
+10983ce79b\node_modu
+les\next-contentlaye
+r\dist\index.js
+<w>  at resolve esm 
+file 
+next-contentlayer
+<w>  at file 
+dependencies C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\next.conf
+ig.mjs
+<w>  at file C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\next.conf
+ig.mjs
+<w>  at resolve 
+commonjs C:\Users\is
+mae\Desktop\Emprendi
+miento y Gesti├│n\ta
+xonomy\next.config.m
+js
+<w> [webpack.cache.P
+ackFileCacheStrategy
+/webpack.FileSystemI
+nfo] Parsing of C:\U
+sers\ismae\Desktop\E
+mprendimiento y Gest
+i├│n\taxonomy\node_m
+odules\.pnpm\@conten
+tlayer+core@0.3.4_es
+build@0.18.20\node_m
+odules\@contentlayer
+\core\dist\dynamic-b
+uild.js for build 
+dependencies failed 
+at 'import(`file://$
+{compiledConfigPath}
+`)'.
+<w> Build 
+dependencies behind 
+this expression are 
+ignored and might 
+cause incorrect 
+cache invalidation.
+<w> [webpack.cache.P
+ackFileCacheStrategy
+/webpack.FileSystemI
+nfo] Parsing of C:\U
+sers\ismae\Desktop\E
+mprendimiento y Gest
+i├│n\taxonomy\node_m
+odules\.pnpm\@conten
+tlayer+core@0.3.4_es
+build@0.18.20\node_m
+odules\@contentlayer
+\core\dist\getConfig
+\index.js for build 
+dependencies failed 
+at 'import(`file://$
+{modulePath}?x=${Dat
+e.now()}`)'.
+<w> Build 
+dependencies behind 
+this expression are 
+ignored and might 
+cause incorrect 
+cache invalidation.
+<w> [webpack.cache.P
+ackFileCacheStrategy
+] Caching failed 
+for pack: Error: 
+Can't resolve 'markd
+own-wasm/dist/markdo
+wn.node.js' in 'C:\U
+sers\ismae\Desktop\E
+mprendimiento y Gest
+i├│n\taxonomy\node_m
+odules\.pnpm\@conten
+tlayer+core@0.3.4_es
+build@0.18.20\node_m
+odules\@contentlayer
+\core\dist\markdown'
+<w> while resolving 
+'markdown-wasm/dist/
+markdown.node.js' 
+in C:\Users\ismae\De
+sktop\Emprendimiento
+ y Gesti├│n\taxonomy
+\node_modules\.pnpm\
+@contentlayer+core@0
+.3.4_esbuild@0.18.20
+\node_modules\@conte
+ntlayer\core\dist\ma
+rkdown as file
+<w>  at resolve esm 
+file markdown-wasm/d
+ist/markdown.node.js
+<w>  at file 
+dependencies C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\node_modu
+les\.pnpm\@contentla
+yer+core@0.3.4_esbui
+ld@0.18.20\node_modu
+les\@contentlayer\co
+re\dist\markdown\mar
+kdown.js
+<w>  at file C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\node_modu
+les\.pnpm\@contentla
+yer+core@0.3.4_esbui
+ld@0.18.20\node_modu
+les\@contentlayer\co
+re\dist\markdown\mar
+kdown.js
+<w>  at resolve esm 
+file ./markdown/mark
+down.js
+<w>  at file 
+dependencies C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\node_modu
+les\.pnpm\@contentla
+yer+core@0.3.4_esbui
+ld@0.18.20\node_modu
+les\@contentlayer\co
+re\dist\index.js
+<w>  at file C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\node_modu
+les\.pnpm\@contentla
+yer+core@0.3.4_esbui
+ld@0.18.20\node_modu
+les\@contentlayer\co
+re\dist\index.js
+<w>  at resolve esm 
+file 
+@contentlayer/core
+<w>  at file 
+dependencies C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\node_modu
+les\.pnpm\next-conte
+ntlayer@0.3.4_con_00
+82d1a33c0dd2e074a369
+10983ce79b\node_modu
+les\next-contentlaye
+r\dist\plugin.js
+<w>  at file C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\node_modu
+les\.pnpm\next-conte
+ntlayer@0.3.4_con_00
+82d1a33c0dd2e074a369
+10983ce79b\node_modu
+les\next-contentlaye
+r\dist\plugin.js
+<w>  at resolve esm 
+file ./plugin.js
+<w>  at file 
+dependencies C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\node_modu
+les\.pnpm\next-conte
+ntlayer@0.3.4_con_00
+82d1a33c0dd2e074a369
+10983ce79b\node_modu
+les\next-contentlaye
+r\dist\index.js
+<w>  at file C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\node_modu
+les\.pnpm\next-conte
+ntlayer@0.3.4_con_00
+82d1a33c0dd2e074a369
+10983ce79b\node_modu
+les\next-contentlaye
+r\dist\index.js
+<w>  at resolve esm 
+file 
+next-contentlayer
+<w>  at file 
+dependencies C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\next.conf
+ig.mjs
+<w>  at file C:\User
+s\ismae\Desktop\Empr
+endimiento y Gesti├│
+n\taxonomy\next.conf
+ig.mjs
+<w>  at resolve 
+commonjs C:\Users\is
+mae\Desktop\Emprendi
+miento y Gesti├│n\ta
+xonomy\next.config.m
+js
+warn  - Compiled 
+with warnings
+
+./node_modules/.pnpm
+/next@13.3.2-canary.
+13_@babe_334890af288
+df37a2afc517a49af11a
+8/node_modules/next/
+dist/server/web/spec
+-extension/image-res
+ponse.js
+A Node.js API is 
+used 
+(process.turbopack 
+at line: 14) which 
+is not supported in 
+the Edge Runtime.
+Learn more: https://
+nextjs.org/docs/api-
+reference/edge-runti
+me
+
+Import trace for 
+requested module:
+./node_modules/.pnpm
+/next@13.3.2-canary.
+13_@babe_334890af288
+df37a2afc517a49af11a
+8/node_modules/next/
+dist/server/web/spec
+-extension/image-res
+ponse.js
+./node_modules/.pnpm
+/next@13.3.2-canary.
+13_@babe_334890af288
+df37a2afc517a49af11a
+8/node_modules/next/
+server.js
+./node_modules/.pnpm
+/next-auth@4.22.1_ne
+xt@13.3._352658d37d2
+43490701eea50a760919
+9/node_modules/next-
+auth/next/middleware
+.js
+./node_modules/.pnpm
+/next-auth@4.22.1_ne
+xt@13.3._352658d37d2
+43490701eea50a760919
+9/node_modules/next-
+auth/middleware.js
+
+info  - Skipping validation of types
+info  - Skipping linting
+info  - Collecting page data...
+info  - Generating static pages (0/30)
+warn  - Entire page 
+/register deopted 
+into client-side 
+rendering. https://n
+extjs.org/docs/messa
+ges/deopted-into-cli
+ent-rendering 
+/register
+warn  - Entire page 
+/login deopted into 
+client-side 
+rendering. https://n
+extjs.org/docs/messa
+ges/deopted-into-cli
+ent-rendering /login
+warn  - Entire page 
+/dashboard/billing 
+deopted into 
+client-side 
+rendering. https://n
+extjs.org/docs/messa
+ges/deopted-into-cli
+ent-rendering 
+/dashboard/billing
+warn  - Entire page 
+/dashboard deopted 
+into client-side 
+rendering. https://n
+extjs.org/docs/messa
+ges/deopted-into-cli
+ent-rendering 
+/dashboard
+warn  - Entire page 
+/dashboard/settings 
+deopted into 
+client-side 
+rendering. https://n
+extjs.org/docs/messa
+ges/deopted-into-cli
+ent-rendering 
+/dashboard/settings
+info  - Generating static pages (7/30)
+info  - Generating static pages (14/30)
+info  - Generating static pages (22/30)
+info  - Generating static pages (30/30)
+info  - Finalizing page optimization...
+
+Route (app)                                      Size     First Load JS
+Ôöî Ôùï /                                            0 B                0 B
+Ôö£ ÔùÅ /[...slug]                                   0 B                0 B
+Ôö£   Ôö£ /privacy
+Ôö£   Ôöö /terms
+Ôö£ Ôäç /api/og                                      0 B                0 B
+Ôö£ ╬╗ /api/posts                                   0 B                0 B
+Ôö£ ╬╗ /api/posts/[postId]                          0 B                0 B
+Ôö£ ╬╗ /api/users/[userId]                          0 B                0 B
+Ôö£ ╬╗ /api/users/stripe                            0 B                0 B
+Ôö£ ╬╗ /api/webhooks/stripe                         0 B                0 B
+Ôö£ Ôùï /blog                                        0 B                0 B
+Ôö£ ÔùÅ /blog/[...slug]                              0 B                0 B
+Ôö£   Ôö£ /blog/deploying-next-apps
+Ôö£   Ôö£ /blog/dynamic-routing-static-regeneration
+Ôö£   Ôö£ /blog/preview-mode-headless-cms
+Ôö£   Ôöö /blog/server-client-components
+Ôö£ ╬╗ /dashboard                                   0 B                0 B
+Ôö£ ╬╗ /dashboard/billing                           0 B                0 B
+Ôö£ ╬╗ /dashboard/settings                          0 B                0 B
+Ôö£ ÔùÅ /docs/[[...slug]]                            0 B                0 B
+Ôö£   Ôö£ /docs/in-progress
+Ôö£   Ôö£ /docs
+Ôö£   Ôö£ /docs/documentation/code-blocks
+Ôö£   Ôöö [+3 more paths]
+Ôö£ ╬╗ /editor/[postId]                             0 B                0 B
+Ôö£ Ôùï /guides                                      0 B                0 B
+Ôö£ ÔùÅ /guides/[...slug]                            0 B                0 B
+Ôö£   Ôö£ /guides/build-blog-using-contentlayer-mdx
+Ôö£   Ôöö /guides/using-next-auth-next-13
+Ôö£ Ôùï /login                                       0 B                0 B
+Ôö£ Ôùï /opengraph-image.jpg                         0 B                0 B
+Ôö£ Ôùï /pricing                                     0 B                0 B
+Ôö£ Ôùï /register                                    0 B                0 B
+Ôöö Ôùï /robots.txt                                  0 B                0 B
++ First Load JS shared by all                    76.3 kB
+  Ôö£ chunks/2087a068-ca5b89fb9d1afdeb.js          50.5 kB
+  Ôö£ chunks/6513-ca25350262b50bc8.js              23.5 kB
+  Ôö£ chunks/main-app-2c6f2e753861f1ee.js          214 B
+  Ôöö chunks/webpack-77dd416a6148383e.js           2 kB
+
+Route (pages)                                    Size     First Load JS
+Ôöî Ôùï /404                                         179 B          86.5 kB
+Ôöö ╬╗ /api/auth/[...nextauth]                      0 B            86.4 kB
++ First Load JS shared by all                    86.4 kB
+  Ôö£ chunks/main-97ba51754ba62c7c.js              84.2 kB
+  Ôö£ chunks/pages/_app-b4937e6f4d1633d8.js        192 B
+  Ôöö chunks/webpack-77dd416a6148383e.js           2 kB
+
+ãÆ Middleware                                     222 kB
+
+Ôäç  (Streaming)  server-side renders with streaming (uses React 18 SSR streaming or Server Components)
+╬╗  (Server)     server-side renders at runtime (uses getInitialProps or getServerSideProps)
+Ôùï  (Static)     automatically rendered as static HTML (uses no initial props)
+ÔùÅ  (SSG)        automatically generated as static HTML + JSON (uses getStaticProps)
+

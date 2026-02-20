@@ -1,0 +1,52 @@
+﻿
+> taxonomy@0.2.0 build C:\Users\ismae\Desktop\Emprendimiento y Gesti├│n\taxonomy
+> contentlayer build && next build
+
+Warning: Contentlayer might not work as expected on Windows
+Generated 15 documents in .contentlayer
+TypeError: The "code" argument must be of type number. Received an instance of Object
+    at process.set [as exitCode] (node:internal/bootstrap/node:119:9)
+    at Cli.runExit (C:\Users\ismae\Desktop\Emprendimiento y Gesti├│n\taxonomy\node_modules\.pnpm\clipanion@3.2.1_typanion@3.14.0\node_modules\clipanion\lib\advanced\Cli.js:232:26)
+    at run (file:///C:/Users/ismae/Desktop/Emprendimiento%20y%20Gesti%C3%B3n/taxonomy/node_modules/.pnpm/@contentlayer+cli@0.3.4_esbuild@0.18.20/node_modules/@contentlayer/cli/dist/index.js:26:5)
+    at main (C:\Users\ismae\Desktop\Emprendimiento y Gesti├│n\taxonomy\node_modules\.pnpm\contentlayer@0.3.4_esbuild@0.18.20\node_modules\contentlayer\bin\cli.cjs:5:3) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+info  - Loaded env from C:\Users\ismae\Desktop\Emprendimiento y Gesti├│n\taxonomy\.env.local
+pnpm : warn  - You 
+have enabled 
+experimental 
+features (appDir, se
+rverComponentsExtern
+alPackages) in 
+next.config.mjs.
+En línea: 1 
+Carácter: 1
++ pnpm build > 
+build.log 2>&1
++ ~~~~~~~~~~~~~~~~~~
+~~~~~~~~~
+    + CategoryInfo  
+            : NotS  
+  pecified: (warn   
+   - You hav...e    
+xt.config.mjs.:    
+String) [], Rem    
+oteException
+    + FullyQualifie 
+   dErrorId : Nati  
+  veCommandError
+ 
+warn  - 
+Experimental 
+features are not 
+covered by semver, 
+and may cause 
+unexpected or 
+broken application 
+behavior. Use at 
+your own risk.
+info  - Thank you for testing `appDir` please leave your feedback at https://nextjs.link/app-feedback
+
+info  - Creating an optimized production build...
+Warning: Contentlayer might not work as expected on Windows
+Generated 15 documents in .contentlayer

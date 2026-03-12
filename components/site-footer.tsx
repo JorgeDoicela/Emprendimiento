@@ -6,53 +6,53 @@ import { Icons } from "@/components/icons"
 import { ModeToggle } from "@/components/mode-toggle"
 
 export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
-  return (
-    <footer className={cn(className)}>
-      <div className="container flex flex-col items-center justify-between gap-4 py-10 md:h-24 md:flex-row md:py-0">
-        <div className="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
-          <Icons.logo />
-          <p className="text-center text-sm leading-loose md:text-left">
-            Creado por{" "}
-            <a
-              href={siteConfig.links.twitter}
-              target="_blank"
-              rel="noreferrer"
-              className="font-medium underline underline-offset-4"
-            >
-              NextGen Solutions
-            </a>
-            . Alojado en{" "}
-            <a
-              href="https://vercel.com"
-              target="_blank"
-              rel="noreferrer"
-              className="font-medium underline underline-offset-4"
-            >
-              Vercel
-            </a>
-            . Ilustraciones por{" "}
-            <a
-              href="https://popsy.co"
-              target="_blank"
-              rel="noreferrer"
-              className="font-medium underline underline-offset-4"
-            >
-              Popsy
-            </a>
-            . El código fuente está disponible en{" "}
-            <a
-              href={siteConfig.links.github}
-              target="_blank"
-              rel="noreferrer"
-              className="font-medium underline underline-offset-4"
-            >
-              GitHub
-            </a>
-            .
-          </p>
-        </div>
-        <ModeToggle />
-      </div>
-    </footer>
-  )
+    return (
+        <footer className={cn(className)}>
+            <div className="container flex flex-col items-center justify-between gap-4 py-10 md:h-24 md:flex-row md:py-0">
+                <div className="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
+                    <Icons.logo />
+                    <p className="text-center text-sm leading-loose md:text-left">
+                        Desarrollado por{" "}
+                        <a
+                            href={siteConfig.links.twitter}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="font-medium underline underline-offset-4"
+                        >
+                            NextGen Solutions
+                        </a>
+                        . Github{" "}
+                        <a
+                            href="https://github.com/JorgeDoicela"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="font-medium underline underline-offset-4"
+                        >
+                            Vercel
+                        </a>
+                        . {" "}
+                        <a
+                            href=""
+                            target="_blank"
+                            rel="noreferrer"
+                            className="font-medium underline underline-offset-4"
+                        >
+
+                        </a>
+                        . El código fuente está disponible en{" "}
+                        <a
+                            href={siteConfig.links.github}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="font-medium underline underline-offset-4"
+                        >
+                            GitHub
+                        </a>
+                        .
+                    </p>
+                </div>
+                <ModeToggle />
+            </div>
+        </footer>
+    )
 }
